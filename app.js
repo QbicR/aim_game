@@ -35,10 +35,9 @@ board.addEventListener('click', (event) => {
         console.log('newgame')
         screens[1].classList.remove('up')
         resetGame()
-    } else if (event.target.classList.contains('new-game-btn hide')){
-        console.log(0);
     }
 })
+
 let interval = 0
 function startGame() {
     interval = setInterval(decreaseTime, 1000)
