@@ -97,6 +97,24 @@ h1 {
   overflow: hidden;
 }
 
+.new-game-btn {
+  background-color: transparent;
+  border: 2px solid #ddd;
+  color: #ddd;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 60px;
+}
+
+.new-game-btn:hover {
+  border: 2px solid #F2EBC7;
+  color: #F2EBC7;
+}
+
 .circle {
   position: absolute;
   border-radius: 50%;
