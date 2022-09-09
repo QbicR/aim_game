@@ -113,3 +113,7 @@ function getRandomColor() {
     const index = Math.floor(Math.random() * colors.length)
     return colors[index]
 }
+
+window.onload = function () {
+    document.body.scrollTop = screens[0].classList.remove('up')
+}
